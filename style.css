@@ -19,6 +19,16 @@ h1{
     margin-bottom: 0px;
 }
 
+h2 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 72px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 h3{
     text-align: center;
     font-family: ArialBlack, sans-serif;
@@ -57,6 +67,7 @@ hr {
 
 img {
     width: 400px;
+	border: 1px solid grey;
 }
 
 table {
@@ -89,6 +100,10 @@ td {
     padding: 15px 15px 15px 15px;
 }
 
+#Footer {
+	float: left;
+}	
+
 #columnCenter {
     float: left;
     text-align: left;
@@ -110,6 +125,7 @@ td {
 
 #Table {
     background-color: #D6D6D6;
+	padding: 0px 0px 0px 0px;
 }
 
 .fontArialBlack {
@@ -132,4 +148,11 @@ td {
     font-family: ArialBlack;
     font-weight: bold;
     font-size: 28px;
+}
+
+.footerCollab {
+	height: 55px;
+	width: auto;
+	border: none;
+	margin-right: 20px;
 }
